@@ -14,7 +14,7 @@ public class Test20200609_8 {
 		for(int i=1; i<=n; i++) {
 			System.out.print("학생 " + i + "의 성적을 입력하시오: ");
 			int t=sc.nextInt();
-			if(t>100) {
+			if(t>100 || t<0) {
 				System.out.println("잘못된 성적입니다. 다시 입력하시오.");
 				i--;
 			} else {
